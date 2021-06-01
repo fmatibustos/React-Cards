@@ -14,13 +14,7 @@
                 <h4 className="card-title">{title}</h4>
             <p className="card-text text-secondary">
 
-    'Córdoba, la capital de la provincia argentina del
-                 mismo nombre, es conocida por su arquitectura colonial española.
-                  Alberga la Manzana Jesuítica, un complejo del siglo XVII con claustros activos,
-                   iglesias y el campus original de la Universidad Nacional de Córdoba,.
-                    una de las universidades más antiguas de Sudamérica.
-                     El punto central de la ciudad es la Plaza San Martín y 
-                     la Catedral de Córdoba de estilo neobarroco'
+            YouTube is an online video sharing and social media platform owned by Google. Around the world, its users watch more than one billion hours of YouTube videos each day. YouTube creators, popularly referred to as YouTubers, upload over one hundred hours of content per minute. In 2005, YouTube.com was launched by Steve Chen, Chad Hurley, and Jawed Karim.
             </p>
                      <a href={url} className="btn btn-outline-secondary rounded-0">
                          Go to this Website
