@@ -4,7 +4,7 @@
  //import image1 from '../assets/image1.jpg'
  // Prueba 1
  
- function card({title, imageSource,url}) {
+ function card({title, imageSource,url,text}) {
      return (
          <div className="card text-center bg-dark animate__animated animate__fadeInUp">
              <div className="overflow">
@@ -12,10 +12,7 @@
              </div>
               <div className="card-body text-light">
                 <h4 className="card-title">{title}</h4>
-            <p className="card-text text-secondary">
-
-            YouTube is an online video sharing and social media platform owned by Google. Around the world, its users watch more than one billion hours of YouTube videos each day. YouTube creators, popularly referred to as YouTubers, upload over one hundred hours of content per minute. In 2005, YouTube.com was launched by Steve Chen, Chad Hurley, and Jawed Karim.
-            </p>
+            <p className="card-text text-secondary">{text}</p>
                      <a href={url} className="btn btn-outline-secondary rounded-0">
                          Go to this Website
                      </a>
